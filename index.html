@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pokémon Info Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Pokémon Info Viewer</h1>
+    <div class="search-box">
+      <input type="text" id="pokemon-input" placeholder="Enter Pokémon name or ID">
+      <button id="get-pokemon-btn">Search</button>
+    </div>
+
+    <div id="error-message" class="hidden error">Pokémon not found. Try again!</div>
+
+    <div id="pokemon-info" class="card hidden">
+      <h2 id="pokemon-name"></h2>
+      <img id="pokemon-image" alt="Pokémon Image">
+      <p><strong>Type:</strong> <span id="pokemon-type"></span></p>
+      <p><strong>Height:</strong> <span id="pokemon-height"></span></p>
+      <p><strong>Weight:</strong> <span id="pokemon-weight"></span></p>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

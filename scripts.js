@@ -24,7 +24,7 @@ async function SearchPokemon(){
         errorM()
     }
 
-    pokemon_name_input.value = ""
+    pokeInput.value = ""
 
 }
 

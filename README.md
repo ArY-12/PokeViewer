@@ -13,7 +13,6 @@ A simple **Pokédex-style web app** built using **vanilla JavaScript** and the *
 
 ![Pokémon Viewer Screenshot](src/project_img-1.PNG)
 
-> Replace `path/to/your/screenshot.png` with an actual screenshot of your app.
 
 ## How It Works
 

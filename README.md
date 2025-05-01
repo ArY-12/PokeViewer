@@ -1,40 +1,52 @@
-PokéViewer
-A simple Pokédex-style web app built with vanilla JavaScript and the PokéAPI. Search for any Pokémon and see its name, types, height, weight, and image!
+# Pokémon Viewer
 
-Features
-🧑‍💻 Search for any Pokémon by name
+A simple **Pokédex-style web app** built using **vanilla JavaScript** and the **PokéAPI**. Search for any Pokémon and view its name, types, height, weight, and image.
 
-🐾 View Pokémon types (e.g., Fire, Water)
+## Features
 
-🏋️‍♂️ See height and weight (converted to meters and kilograms)
+- 🧑‍💻 **Search** for any Pokémon by name.
+- 🐾 View **types** of the Pokémon (e.g., Fire, Water).
+- 🏋️‍♂️ See **height** and **weight** (converted to meters and kilograms).
+- 🖼️ Display Pokémon **image** from the API.
 
-🖼️ Display Pokémon image from the API
+## Screenshots
 
-How It Works
-Enter a Pokémon name into the search bar.
+![Pokémon Viewer Screenshot](src/project_img-1.PNG)
 
-Click the "Search" button (or press Enter).
+> Replace `path/to/your/screenshot.png` with an actual screenshot of your app.
 
-The app fetches data from the PokéAPI.
+## How It Works
 
-Displays the Pokémon’s name, types, height, weight, and image.
+1. **Enter a Pokémon name** into the search bar.
+2. **Click the "Search" button** or press Enter to trigger the search.
+3. The app fetches data from the [PokéAPI](https://pokeapi.co/).
+4. Displays:
+    - Pokémon’s **name**
+    - Pokémon’s **types**
+    - Pokémon’s **height** and **weight** (in meters and kilograms)
+    - **Image** of the Pokémon
 
-Getting Started
+## Technologies Used
+
+- **HTML** – Markup for the page
+- **CSS** – Styling for the user interface
+- **JavaScript (Vanilla)** – To fetch data from the PokéAPI and manipulate the DOM
+- **PokéAPI** – Provides the data about Pokémon (https://pokeapi.co/)
+
+## Getting Started
+
 To run this project locally:
 
-Clone the repository:
+1. **Clone the repository:**
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/pokemon-viewer.git
-Open index.html in your web browser.
+    ```bash
+    git clone https://github.com/yourusername/pokemon-viewer.git
+    ```
 
-Technologies Used
-HTML
+2. **Navigate to the project directory:**
 
-CSS
+    ```bash
+    cd pokemon-viewer
+    ```
 
-JavaScript (Vanilla)
-
-PokéAPI (https://pokeapi.co/)
+3. **Open the `index.html` file** in your browser.
